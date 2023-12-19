@@ -57,19 +57,19 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "17740376599561224482"
+        "hash": "5314965710504960959"
       },
       {
         "file": ".nx/cache/lockfile.hash",
-        "hash": "3259374588240852518"
+        "hash": "14905886588659625904"
       },
       {
         "file": ".nx/cache/parsed-lock-file.json",
-        "hash": "14619596863739348196"
+        "hash": "15838017723600544166"
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "7795414313278833441"
+        "hash": "7578505108007476783"
       },
       {
         "file": ".vscode/extensions.json",
@@ -113,7 +113,7 @@
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "4273424283159700076"
+        "hash": "5084824591527342202"
       },
       {
         "file": "src/app/app.component.spec.ts",
@@ -129,15 +129,15 @@
       },
       {
         "file": "src/app/app.config.ts",
-        "hash": "11821239874568871925"
+        "hash": "2847477693420088344"
       },
       {
         "file": "src/app/app.module.ts",
-        "hash": "12728548519125789819"
+        "hash": "4676185989174468958"
       },
       {
         "file": "src/app/app.routes.ts",
-        "hash": "9662202224354377601"
+        "hash": "18441130415776196493"
       },
       {
         "file": "src/app/components/ingredient/ingredient.component.css",
@@ -173,11 +173,11 @@
       },
       {
         "file": "src/app/components/recipe/recipe.component.css",
-        "hash": "4483740899564431715"
+        "hash": "4820928020333958791"
       },
       {
         "file": "src/app/components/recipe/recipe.component.html",
-        "hash": "13868794716177878413"
+        "hash": "9937574929236098310"
       },
       {
         "file": "src/app/components/recipe/recipe.component.spec.ts",
@@ -185,7 +185,7 @@
       },
       {
         "file": "src/app/components/recipe/recipe.component.ts",
-        "hash": "8406437534478765630"
+        "hash": "11858105948256179273"
       },
       {
         "file": "src/app/models/Ingredient.model.ts",
