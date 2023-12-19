@@ -1,4 +1,3 @@
-// In app.routes.ts
 import { Routes } from '@angular/router';
 import { RecipeComponent } from './components/recipe/recipe.component';
 import { IngredientComponent } from './components/ingredient/ingredient.component';

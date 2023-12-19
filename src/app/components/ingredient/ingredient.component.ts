@@ -8,18 +8,67 @@ import { IngredientModel } from '../../models/Ingredient.model';
   styleUrls: ['./ingredient.component.css']
 })
 export class IngredientComponent implements OnInit {
-  ingredients: IngredientModel[] = []; // Use the IngredientModel model as the type
+  ingredients: IngredientModel[] = [];
+  errorMessage: string = '';
 
   constructor(private ingredientService: IngredientService) { }
 
   ngOnInit(): void {
-    // Use ingredientService to fetch ingredients and update the ingredients array.
+    this.loadIngredients();
+  }
+
+  loadIngredients(): void {
     this.ingredientService.getIngredients().subscribe(
-      (data: IngredientModel[]) => { // Ensure the data is of type IngredientModel[]
+      (data: IngredientModel[]) => {
         this.ingredients = data;
       },
       (error) => {
         console.error('Error fetching ingredients', error);
+        this.errorMessage = 'Error fetching ingredients';
+      }
+    );
+  }
+
+  createNewIngredient() {
+    const newIngredientData = {
+      name: 'New Ingredient',
+    };
+
+    this.ingredientService.createIngredient(newIngredientData).subscribe(
+      (response: IngredientModel) => {
+        console.log('New ingredient created:', response);
+        this.loadIngredients();
+      },
+      (error) => {
+        console.error('Error creating ingredient', error);
+      }
+    );
+  }
+
+  updateExistingIngredient(ingredientId: number) {
+    const updatedIngredientData = {
+      name: 'Updated Ingredient',
+    };
+
+    this.ingredientService.updateIngredient(ingredientId, updatedIngredientData).subscribe(
+      (response: IngredientModel) => {
+        console.log('Ingredient updated:', response);
+        this.loadIngredients();
+      },
+      (error) => {
+        console.error('Error updating ingredient', error);
+      }
+    );
+  }
+
+  deleteIngredient(ingredientId: number) {
+    this.ingredientService.deleteIngredient(ingredientId).subscribe(
+      () => {
+        console.log('Ingredient deleted');
+        this.loadIngredients();
+      },
+      (error) => {
+        console.error('Error deleting ingredient', error);
       }
     );
   }

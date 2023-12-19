@@ -1,15 +1,23 @@
 <section class="ingredients">
   <h2 class="section-heading">Ingredients</h2>
 
-  <div class="ingredient" *ngFor="let ingredient of ingredients">
+  <div class="ingredient-card" *ngFor="let ingredient of ingredients">
     <div class="ingredient-image">
-      <img [src]="ingredient.imageUrl" alt="{{ ingredient.name }}">
+      <img class="ingredient-image" [src]="ingredient.imageUrl" alt="{{ ingredient.name }}">
     </div>
     <div class="ingredient-details">
       <h3 class="ingredient-title">{{ ingredient.name }}</h3>
-      <p class="ingredient-description">Description: {{ ingredient.description }}</p>
-      <p class="ingredient-category">Category: {{ ingredient.category }}</p>
-      <p class="ingredient-price">Price: ${{ ingredient.price }}</p>
+      <div class="ingredient-info">
+        <p class="ingredient-description">Description: {{ ingredient.description }}</p>
+        <p class="ingredient-category">Category: {{ ingredient.category }}</p>
+        <p class="ingredient-price">Price: ${{ ingredient.price }}</p>
+      </div>
+      <div class="ingredient-actions">
+        <button class="btn-update" (click)="updateExistingIngredient(ingredient.id)">Update</button>
+        <button class="btn-delete" (click)="deleteIngredient(ingredient.id)">Delete</button>
+        <button (click)="createNewIngredient()">Create New Ingredient</button>
+
+      </div>
     </div>
   </div>
 

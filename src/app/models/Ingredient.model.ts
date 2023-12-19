@@ -1,9 +1,8 @@
 export interface IngredientModel {
+  id: number;
   name: string;
+  imageUrl: string;
   description: string;
   category: string;
   price: number;
-  quantity: number;
-  supplier: string;
-  imageUrl: string;
 }

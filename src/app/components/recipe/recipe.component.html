@@ -3,7 +3,10 @@
     <h2>{{ recipe.name }}</h2>
     <img src="../../3rdSemesterEksamenFrontend/src/assets/Recipe/Coffeerecipe.png" alt="{{ recipe.name }}" class="recipe-image">
     <p>{{ recipe.description }}</p>
-    <!-- Add more recipe details as needed -->
+    <button (click)="createNewRecipe()">Create New Recipe</button>
+    <button (click)="updateExistingRecipe(recipe.id)">Update Recipe</button>
+    <button (click)="deleteRecipe(recipe.id)">Delete Recipe</button>
+
   </div>
 </div>
 <ng-template #noRecipes>

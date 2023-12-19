@@ -1,18 +1,24 @@
 <div *ngIf="errorMessage">{{ errorMessage }}</div>
+
+<!-- Buttons for Create, Update, and Delete -->
+<div>
+  <button (click)="createNewItem()">Create New Item</button>
+  <button (click)="updateExistingItem(itemId)">Update Item</button>
+  <button (click)="deleteItem(itemId)">Delete Item</button>
+</div>
+
 <div *ngIf="menuItems.length > 0">
   <table>
     <thead>
     <tr>
       <th>Name</th>
       <th>Price</th>
-      <!-- Add other headers as needed -->
     </tr>
     </thead>
     <tbody>
     <tr *ngFor="let item of menuItems">
       <td>{{ item.name }}</td>
       <td>{{ item.price }}</td>
-      <!-- Add other columns as needed -->
     </tr>
     </tbody>
   </table>

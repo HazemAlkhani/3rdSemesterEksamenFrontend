@@ -1,13 +1,13 @@
-/* General styles */
+
 body {
-  font-family: 'Arial', sans-serif; /* You can change the font family as you like */
-  color: #333; /* Sets a basic font color */
-  background-color: #f4f4f4; /* Background color of the page */
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
 }
 
 header {
-  background-color: #0063B2ff; /* Adjust the header background color */
-  color: #ffffff; /* Font color for header */
+  background-color: #0063B2ff;
+  color: #ffffff;
   text-align: center;
   padding: 10px 0;
 }
@@ -22,13 +22,13 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Section heading styles */
+
 .section-heading {
-  color: #0063B2ff; /* Color for section headings */
+  color: #0063B2ff;
   text-align: center;
 }
 
-/* Coffee creation styles */
+
 .coffee-creation {
   display: flex;
   flex-wrap: wrap;
@@ -37,29 +37,28 @@ nav a:hover {
 }
 
 .coffee-creation-image img {
-  width: 100%; /* Adjust the width as necessary */
-  max-width: 300px; /* Maximum width */
-  height: 200px; /* Maintain aspect ratio */
-  border: 1px solid #ccc; /* Optional border */
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Optional shadow for depth */
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
 
 .coffee-creation-details {
-  flex-basis: 60%; /* Adjust based on your layout preference */
+  flex-basis: 60%;
   padding: 0 15px;
 }
 
 .coffee-creation-title {
-  color: #DAA520; /* Gold color for titles */
+  color: #DAA520;
   font-size: 1.2em;
 }
 
 .coffee-creation-description {
-  color: #555; /* Slightly lighter font color for descriptions */
+  color: #555;
   font-size: 1em;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .coffee-creation {
     flex-direction: column;

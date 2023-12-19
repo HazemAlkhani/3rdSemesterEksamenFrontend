@@ -1,42 +1,33 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { IngredientModel } from '../models/Ingredient.model';
 
 @Injectable({
   providedIn: 'root',
 })
 export class IngredientService {
-  private apiUrl = 'http://localhost:5196/api'; // Replace with your API URL
+  private apiUrl = 'http://localhost:5196/api';
 
   constructor(private http: HttpClient) {}
 
-  // Define methods for interacting with your API endpoints here
-
-  // Example: Get a list of ingredients
-  getIngredients(): Observable<any[]> {
+  getIngredients(): Observable<IngredientModel[]> {
     const url = `${this.apiUrl}/ingredients`;
-    return this.http.get<any[]>(url);
+    return this.http.get<IngredientModel[]>(url);
   }
 
-  // Example: Create a new ingredient
-  createIngredient(ingredientData: any): Observable<any> {
+  createIngredient(ingredientData: any): Observable<IngredientModel> {
     const url = `${this.apiUrl}/ingredients`;
-    return this.http.post<any>(url, ingredientData);
+    return this.http.post<IngredientModel>(url, ingredientData);
   }
 
-  // Example: Update an existing ingredient
-  updateIngredient(ingredientId: number, ingredientData: any): Observable<any> {
+  updateIngredient(ingredientId: number, ingredientData: any): Observable<IngredientModel> {
     const url = `${this.apiUrl}/ingredients/${ingredientId}`;
-    return this.http.put<any>(url, ingredientData);
+    return this.http.put<IngredientModel>(url, ingredientData);
   }
 
-  // Example: Delete an ingredient
-  deleteIngredient(ingredientId: number): Observable<any> {
+  deleteIngredient(ingredientId: number): Observable<void> {
     const url = `${this.apiUrl}/ingredients/${ingredientId}`;
-    return this.http.delete<any>(url);
+    return this.http.delete<void>(url);
   }
-
-  // Add more methods as needed for your specific API
-
-  // You can also define custom headers or authentication logic here if needed
 }
