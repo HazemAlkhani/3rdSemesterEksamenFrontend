@@ -1,26 +1,51 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="ingredient.component.css">
-<section class="ingredients">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingredients</title>
+  <link rel="stylesheet" href="ingredient.component.css">
+</head>
+<body>
+<div class="background-image">
+  <img src="assets/ingredient/Ingrident.jpeg" alt="Ingredient Image">
+</div>
 
-  <h2 class="section-heading">Ingredients</h2>
+<div class="container">
+  <header class="header">
+    <h1>Ingredients</h1>
+  </header>
 
-  <div class="ingredient-card card" *ngFor="let ingredient of ingredients">
-    <div class="ingredient-image card-img-top">
-      <img src="assets/ingredient/Ingrident.jpeg" alt="Espresso" class="ingredient-image card-img-top">
-    </div>
-    <div class="ingredient-details card-body">
-      <h3 class="ingredient-title card-title"></h3>
-      <div class="ingredient-info card-text">
-        <p>Description: Description </p>
-        <p>Category: Category</p>
-        <p>Price:Price</p>
+  <section class="ingredients">
+    <h2 class="section-heading">Ingredients</h2>
+
+    <div class="ingredient-card-container">
+      <div class="ingredient-card" *ngFor="let ingredient of ingredients">
+        <div class="ingredient-image card-img-top">
+          <img src="assets/ingredient/Ingrident.jpeg" alt="Ingredient" class="ingredient-image card-img-top">
+        </div>
+
+        <div class="ingredient-details card-body">
+          <h3 class="ingredient-title card-title">{{ ingredient.name }}</h3>
+
+          <div class="ingredient-info card-text">
+            <p>Description: {{ ingredient.description }}</p>
+            <p>Category: {{ ingredient.category }}</p>
+            <p>Price: ${{ ingredient.price }}</p>
+          </div>
+
+          <div class="ingredient-actions">
+            <button class="btn-update btn" (click)="updateExistingIngredient(ingredient.id)">Update</button>
+
+            <button class="btn-delete btn" (click)="deleteIngredient(ingredient.id)">Delete</button>
+
+            <button (click)="createNewIngredient()">Create New Ingredient</button>
+          </div>
+        </div>
       </div>
-      <div class="ingredient-actions">
-        <button class="btn-update btn" (click)="updateExistingIngredient(ingredient.id)">Update</button>
-        <button class="btn-delete btn" (click)="deleteIngredient(ingredient.id)">Delete</button>
-
-        <button (click)="createNewIngredient()" class="btn">Create New Ingredient</button>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
+
+</body>
+</html>
