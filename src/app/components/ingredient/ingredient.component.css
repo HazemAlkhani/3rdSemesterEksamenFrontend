@@ -1,0 +1,33 @@
+/* ingredient.component.css */
+
+/* Style the container */
+.container {
+  padding: 20px;
+}
+
+/* Style the ingredient cards */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* Customize further as needed */

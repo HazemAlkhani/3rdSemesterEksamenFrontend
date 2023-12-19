@@ -6,16 +6,13 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class MenuItemService {
-  private apiUrl = 'http://localhost:5196/api'; // Replace with your API URL
+  private apiUrl = 'http://localhost:5196/api';
 
   constructor(private http: HttpClient) {}
 
-  // Define methods for interacting with your API endpoints here
 
-  // Example: Get a list of menu items
-  getMenuItems(): Observable<any[]> {
-    const url = `${this.apiUrl}/menu-items`;
-    return this.http.get<any[]>(url);
+  getMenuItems(): Observable<MenuItem[]> {
+    return this.http.get<MenuItem[]>(this.apiUrl);
   }
 
   // Example: Create a new menu item
@@ -36,7 +33,4 @@ export class MenuItemService {
     return this.http.delete<any>(url);
   }
 
-  // Add more methods as needed for your specific API
-
-  // You can also define custom headers or authentication logic here if needed
 }

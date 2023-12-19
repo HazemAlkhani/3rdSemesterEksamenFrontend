@@ -10,6 +10,7 @@ import { IngredientComponent } from './components/ingredient/ingredient.componen
 import { MenuItemComponent } from './components/menu-item/menu-item.component';
 import { routes } from './app.routes';
 import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    AppRoutingModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],

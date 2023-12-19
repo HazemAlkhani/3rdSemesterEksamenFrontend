@@ -1,4 +1,16 @@
-<h2>Ingredients</h2>
-<ul>
-  <li *ngFor="let ingredient of ingredients">{{ ingredient.name }}</li>
-</ul>
+<section class="ingredients">
+  <h2 class="section-heading">Ingredients</h2>
+
+  <div class="ingredient" *ngFor="let ingredient of ingredients">
+    <div class="ingredient-image">
+      <img [src]="ingredient.imageUrl" alt="{{ ingredient.name }}">
+    </div>
+    <div class="ingredient-details">
+      <h3 class="ingredient-title">{{ ingredient.name }}</h3>
+      <p class="ingredient-description">Description: {{ ingredient.description }}</p>
+      <p class="ingredient-category">Category: {{ ingredient.category }}</p>
+      <p class="ingredient-price">Price: ${{ ingredient.price }}</p>
+    </div>
+  </div>
+
+</section>
