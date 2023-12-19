@@ -1,14 +1,16 @@
+<!DOCTYPE html>
 <div *ngIf="recipes.length > 0; else noRecipes">
   <div class="recipe" *ngFor="let recipe of recipes">
-    <h2>{{ recipe.name }}</h2>
-    <img src="../../3rdSemesterEksamenFrontend/src/assets/Recipe/Coffeerecipe.png" alt="{{ recipe.name }}" class="recipe-image">
-    <p>{{ recipe.description }}</p>
+    <h2>Coffee Recipes</h2>
+    <link rel="stylesheet" href="recipe.component.css">
+    <img src="./assets/Recipe/Coffeerecipe.png" alt="Image Description" class="recipe-image" height="794" width="794">
+    <p>Enjoy a delightful cup of freshly brewed coffee. This classic coffee recipe is made with high-quality coffee
+      beans, carefully roasted to perfection. Sip and savor the rich, aromatic flavor that will kickstart your day.</p>
     <button (click)="createNewRecipe()">Create New Recipe</button>
     <button (click)="updateExistingRecipe(recipe.id)">Update Recipe</button>
     <button (click)="deleteRecipe(recipe.id)">Delete Recipe</button>
-
   </div>
 </div>
 <ng-template #noRecipes>
-  <p>No recipes found.</p>
+  <p>No coffee recipes found.</p>
 </ng-template>

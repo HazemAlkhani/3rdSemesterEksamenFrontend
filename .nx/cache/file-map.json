@@ -16,7 +16,7 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2",
-    "@angular-devkit/build-angular": "^16.2.10",
+    "@angular-devkit/build-angular": "^17.0.7",
     "@angular-eslint/builder": "17.1.1",
     "@angular-eslint/eslint-plugin": "17.1.1",
     "@angular-eslint/eslint-plugin-template": "17.1.1",
@@ -57,19 +57,19 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "17944877682824474434"
+        "hash": "17740376599561224482"
       },
       {
         "file": ".nx/cache/lockfile.hash",
-        "hash": "1731799482784341744"
+        "hash": "3259374588240852518"
       },
       {
         "file": ".nx/cache/parsed-lock-file.json",
-        "hash": "4323518953865148014"
+        "hash": "14619596863739348196"
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "17289852913997677231"
+        "hash": "7795414313278833441"
       },
       {
         "file": ".vscode/extensions.json",
@@ -89,15 +89,15 @@
       },
       {
         "file": "angular.json",
-        "hash": "12931829048135780055"
+        "hash": "16429281575617907402"
       },
       {
         "file": "package-lock.json",
-        "hash": "5542612636420181128"
+        "hash": "2565774316143401321"
       },
       {
         "file": "package.json",
-        "hash": "11706356216059078110"
+        "hash": "3415562227162510708"
       },
       {
         "file": "server.ts",

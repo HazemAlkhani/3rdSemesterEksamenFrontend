@@ -1,21 +1,54 @@
+/* Recipe card container */
 .recipe {
+  background-color: #e0e0e0; /* Light gray background color */
   border: 1px solid #ccc;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Recipe title */
 .recipe h2 {
-  color: #333;
+  color: #333; /* Title color (dark gray) */
 }
 
+/* Recipe image */
 .recipe-image {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
 }
 
+/* Recipe description */
 .recipe p {
-  color: #666;
+  color: #666; /* Description color (medium gray) */
+}
+
+/* Font colors for specific elements */
+.recipe .title {
+  color: #ff6600; /* Custom color for title */
+}
+
+.recipe .image-caption {
+  color: #007acc; /* Custom color for image caption */
+}
+
+.recipe .description-text {
+  color: #33cc33; /* Custom color for description text */
+}
+
+/* Button styles */
+.recipe button {
+  background-color: #007acc; /* Button background color (blue) */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.recipe button:hover {
+  background-color: #005ca3;
 }
