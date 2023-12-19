@@ -1,0 +1,320 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "@angular/animations": "^17.0.0",
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/platform-browser-dynamic": "^17.0.0",
+    "@angular/platform-server": "^17.0.0",
+    "@angular/router": "^17.0.7",
+    "@angular/ssr": "^17.0.7",
+    "express": "^4.18.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.2",
+    "@angular-devkit/build-angular": "^17.0.7",
+    "@angular-eslint/builder": "17.1.1",
+    "@angular-eslint/eslint-plugin": "17.1.1",
+    "@angular-eslint/eslint-plugin-template": "17.1.1",
+    "@angular-eslint/schematics": "17.1.1",
+    "@angular-eslint/template-parser": "17.1.1",
+    "@angular/cli": "^17.0.7",
+    "@angular/compiler-cli": "^17.0.0",
+    "@types/express": "^4.17.17",
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.18.0",
+    "@typescript-eslint/eslint-plugin": "6.13.1",
+    "@typescript-eslint/parser": "6.13.1",
+    "eslint": "^8.54.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.2.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "14645878845883387518"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13044518069027839699"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "13608983679515386175"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "1731799482784341744"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "4323518953865148014"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "6076176478836788139"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "5331566439708925252"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17038929134016848735"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "5336636969995539451"
+      },
+      {
+        "file": "README.md",
+        "hash": "13988472216406844558"
+      },
+      {
+        "file": "angular.json",
+        "hash": "12931829048135780055"
+      },
+      {
+        "file": "package.json",
+        "hash": "1520733466231052190"
+      },
+      {
+        "file": "server.ts",
+        "hash": "7713808127824314998"
+      },
+      {
+        "file": "src/app/app-routing.module.ts",
+        "hash": "5220836248176221555"
+      },
+      {
+        "file": "src/app/app.component.css",
+        "hash": "17310258811052498663"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "4273424283159700076"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "10450109536631385884"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "15861631653611601555"
+      },
+      {
+        "file": "src/app/app.config.server.ts",
+        "hash": "14750464052796800194"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "11821239874568871925"
+      },
+      {
+        "file": "src/app/app.module.ts",
+        "hash": "12728548519125789819"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "9662202224354377601"
+      },
+      {
+        "file": "src/app/components/ingredient/ingredient.component.css",
+        "hash": "3737587333776084504"
+      },
+      {
+        "file": "src/app/components/ingredient/ingredient.component.html",
+        "hash": "5835094947095536251"
+      },
+      {
+        "file": "src/app/components/ingredient/ingredient.component.spec.ts",
+        "hash": "11916197599802127091"
+      },
+      {
+        "file": "src/app/components/ingredient/ingredient.component.ts",
+        "hash": "7249617385614232585"
+      },
+      {
+        "file": "src/app/components/menu-item/menu-item.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/components/menu-item/menu-item.component.html",
+        "hash": "2783404245725124720"
+      },
+      {
+        "file": "src/app/components/menu-item/menu-item.component.spec.ts",
+        "hash": "10716539573832423769"
+      },
+      {
+        "file": "src/app/components/menu-item/menu-item.component.ts",
+        "hash": "17377276862084406199"
+      },
+      {
+        "file": "src/app/components/recipe/recipe.component.css",
+        "hash": "4483740899564431715"
+      },
+      {
+        "file": "src/app/components/recipe/recipe.component.html",
+        "hash": "13868794716177878413"
+      },
+      {
+        "file": "src/app/components/recipe/recipe.component.spec.ts",
+        "hash": "14171112027727650284"
+      },
+      {
+        "file": "src/app/components/recipe/recipe.component.ts",
+        "hash": "8406437534478765630"
+      },
+      {
+        "file": "src/app/models/Ingredient.model.ts",
+        "hash": "8286171552417870703"
+      },
+      {
+        "file": "src/app/models/menu-item.model.ts",
+        "hash": "15895481193700741497"
+      },
+      {
+        "file": "src/app/models/recipe.model.ts",
+        "hash": "12798499361287199504"
+      },
+      {
+        "file": "src/app/services/ingredient.service.spec.ts",
+        "hash": "12251609484790875378"
+      },
+      {
+        "file": "src/app/services/ingredient.service.ts",
+        "hash": "16115116970515868051"
+      },
+      {
+        "file": "src/app/services/menu-item.service.spec.ts",
+        "hash": "14960415989834998860"
+      },
+      {
+        "file": "src/app/services/menu-item.service.ts",
+        "hash": "10058427426509294420"
+      },
+      {
+        "file": "src/app/services/recipe.service.spec.ts",
+        "hash": "10082738945845658984"
+      },
+      {
+        "file": "src/app/services/recipe.service.ts",
+        "hash": "6079209988082590728"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/Recipe/Coffeerecipe.png",
+        "hash": "9702464102582359897"
+      },
+      {
+        "file": "src/assets/coffee-images/Americano.jpg",
+        "hash": "7351461068308794189"
+      },
+      {
+        "file": "src/assets/coffee-images/Cappuccino.jpg",
+        "hash": "3403620810048566940"
+      },
+      {
+        "file": "src/assets/coffee-images/Cortado.jpg",
+        "hash": "12494257985352123537"
+      },
+      {
+        "file": "src/assets/coffee-images/Esspresso.jpeg",
+        "hash": "1419454643719158704"
+      },
+      {
+        "file": "src/assets/coffee-images/Filterkaffe.jpg",
+        "hash": "2549342424548886775"
+      },
+      {
+        "file": "src/assets/coffee-images/FlatWhite.jpg",
+        "hash": "3004340297065271273"
+      },
+      {
+        "file": "src/assets/coffee-images/Flatwhite.png",
+        "hash": "5740864719824247632"
+      },
+      {
+        "file": "src/assets/coffee-images/Lait.jpg",
+        "hash": "12023908529538381898"
+      },
+      {
+        "file": "src/assets/coffee-images/Latte.jpeg",
+        "hash": "17557586912194664817"
+      },
+      {
+        "file": "src/assets/coffee-images/Latte.png",
+        "hash": "16786877105061119542"
+      },
+      {
+        "file": "src/assets/coffee-images/Lungo.jpg",
+        "hash": "3575858969145269209"
+      },
+      {
+        "file": "src/assets/coffee-images/Macchiato.jpg",
+        "hash": "7127288942361441326"
+      },
+      {
+        "file": "src/assets/coffee-images/Mokka.jpg",
+        "hash": "16694110959146502972"
+      },
+      {
+        "file": "src/assets/coffee-images/Ristretto.jpg",
+        "hash": "13947367714602081434"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "11876316480011030026"
+      },
+      {
+        "file": "src/main.server.ts",
+        "hash": "11653607448136507287"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "4927504514031276065"
+      },
+      {
+        "file": "src/styles.css",
+        "hash": "16149791936240237035"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "17948364081101022842"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "6830907402848794383"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "15575553540147145788"
+      }
+    ]
+  }
+}
