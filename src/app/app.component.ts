@@ -7,7 +7,7 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = '3rdSemesterEksamenFrontend';
+  title = 'Kaffekunstens Forening';
 
   constructor(private titleService: Title) { }
 
