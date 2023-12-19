@@ -7,7 +7,7 @@ import { IngredientComponent } from './components/ingredient/ingredient.componen
 import { MenuItemComponent } from './components/menu-item/menu-item.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
-import { CommonModule } from '@angular/common';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 
@@ -26,6 +26,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
     FormsModule,
     AppRoutingModule,
     CommonModule,
+    NgOptimizedImage,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent],

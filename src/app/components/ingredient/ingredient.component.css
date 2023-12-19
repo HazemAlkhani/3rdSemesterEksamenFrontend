@@ -1,31 +1,111 @@
 
+body {
+  background-image: url('assets/ingredient/Ingrident.jpeg');/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
 }
 
-/* Style the ingredient cards */
-.card {
+
+header {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+}
+.section-heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+ingredient-card {
+  background-color: #f9f9f9;
   border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
   transition: transform 0.2s;
 }
 
-.card:hover {
+.ingredient-card:hover {
   transform: scale(1.05);
 }
 
-.card-title {
-  font-size: 1.25rem;
+.ingredient-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.card-text {
+.ingredient-details {
+  padding: 10px;
+}
+
+.ingredient-title {
+  font-size: 1.5rem;
+  font-weight: bold;
   margin-bottom: 10px;
+  color: #333;
 }
 
-.card-img-top {
-  max-height: 200px;
-  object-fit: cover;
+.ingredient-description,
+.ingredient-category,
+.ingredient-price {
+  margin: 5px 0;
+  color: #555;
+}
+
+.ingredient-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ingredient-actions .btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ingredient-actions .btn:hover {
+  background-color: #0056b3;
 }
 
 
+@media (max-width: 768px) {
+  .ingredient-card {
+    width: 100%;
+  }
+}

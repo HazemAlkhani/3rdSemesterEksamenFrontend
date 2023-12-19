@@ -1,24 +1,26 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="ingredient.component.css">
 <section class="ingredients">
+
   <h2 class="section-heading">Ingredients</h2>
 
-  <div class="ingredient-card" *ngFor="let ingredient of ingredients">
-    <div class="ingredient-image">
-      <img class="ingredient-image" [src]="ingredient.imageUrl" alt="{{ ingredient.name }}">
+  <div class="ingredient-card card" *ngFor="let ingredient of ingredients">
+    <div class="ingredient-image card-img-top">
+      <img src="assets/ingredient/Ingrident.jpeg" alt="Espresso" class="ingredient-image card-img-top">
     </div>
-    <div class="ingredient-details">
-      <h3 class="ingredient-title">{{ ingredient.name }}</h3>
-      <div class="ingredient-info">
-        <p class="ingredient-description">Description: {{ ingredient.description }}</p>
-        <p class="ingredient-category">Category: {{ ingredient.category }}</p>
-        <p class="ingredient-price">Price: ${{ ingredient.price }}</p>
+    <div class="ingredient-details card-body">
+      <h3 class="ingredient-title card-title"></h3>
+      <div class="ingredient-info card-text">
+        <p>Description: Description </p>
+        <p>Category: Category</p>
+        <p>Price:Price</p>
       </div>
       <div class="ingredient-actions">
-        <button class="btn-update" (click)="updateExistingIngredient(ingredient.id)">Update</button>
-        <button class="btn-delete" (click)="deleteIngredient(ingredient.id)">Delete</button>
-        <button (click)="createNewIngredient()">Create New Ingredient</button>
+        <button class="btn-update btn" (click)="updateExistingIngredient(ingredient.id)">Update</button>
+        <button class="btn-delete btn" (click)="deleteIngredient(ingredient.id)">Delete</button>
 
+        <button (click)="createNewIngredient()" class="btn">Create New Ingredient</button>
       </div>
     </div>
   </div>
-
 </section>

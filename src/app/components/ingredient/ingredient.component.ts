@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IngredientService } from '../../services/ingredient.service';
 import { IngredientModel } from '../../models/Ingredient.model';
+import assert from "node:assert";
 
 @Component({
   selector: 'app-ingredient',
@@ -72,4 +73,6 @@ export class IngredientComponent implements OnInit {
       }
     );
   }
+
+  protected readonly assert = assert;
 }

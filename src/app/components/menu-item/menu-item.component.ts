@@ -26,40 +26,34 @@ export class MenuItemComponent implements OnInit {
     });
   }
 
-  // Creating a new menu item
+
   createNewItem() {
     const newItemData = {
-      // Define your new menu item data here
     };
 
     this.menuItemService.createMenuItem(newItemData).subscribe((response) => {
-      // Handle the response from the service, e.g., display a success message
+
       console.log('New menu item created:', response);
     });
   }
 
-  // Updating an existing menu item
   updateExistingItem(itemId: number | undefined) {
-    // Set the itemId property
     this.itemId = itemId;
 
     const updatedItemData = {
-      // Define your updated menu item data here
+
     };
 
     this.menuItemService.updateMenuItem(this.itemId, updatedItemData).subscribe((response) => {
-      // Handle the response from the service, e.g., display a success message
       console.log('Menu item updated:', response);
     });
   }
 
-// Example of setting itemId before deleting an item
+
   deleteItem(itemId: number | undefined) {
-    // Set the itemId property
     this.itemId = itemId;
 
     this.menuItemService.deleteMenuItem(this.itemId).subscribe(() => {
-      // Handle the deletion, e.g., remove the item from the UI
       console.log('Menu item deleted');
     });
   }
