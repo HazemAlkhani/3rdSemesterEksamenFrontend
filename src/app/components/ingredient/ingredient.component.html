@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="background-image">
-  <img src="assets/ingredient/Ingrident.jpeg" alt="Ingredient Image">
+  <img ngSrc="assets/ingredient/Ingrident.jpeg" alt="Ingredient Image" height="197" width="316">
 </div>
 
 <div class="container">
@@ -22,7 +22,8 @@
     <div class="ingredient-card-container">
       <div class="ingredient-card" *ngFor="let ingredient of ingredients">
         <div class="ingredient-image card-img-top">
-          <img src="assets/ingredient/Ingrident.jpeg" alt="Ingredient" class="ingredient-image card-img-top">
+          <img ngSrc="assets/ingredient/Ingrident.jpeg" alt="Ingredient" class="ingredient-image card-img-top"
+               height="197" width="316">
         </div>
 
         <div class="ingredient-details card-body">
