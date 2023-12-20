@@ -2,71 +2,84 @@ body {
   font-family: 'Arial', sans-serif;
   color: #333;
   background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-color: #4E342E;
-  color: #FFF8E1;
+  background-color: #0063B2;
+  color: #ffffff;
   text-align: center;
   padding: 20px 0;
 }
 
 nav a {
-  color: #FFF8E1;
+  color: #ffffff;
   margin: 0 15px;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 1.1em;
 }
 
 nav a:hover {
-  color: #BCAAA4;
+  color: #ffcc00;
   text-decoration: underline;
 }
 
 .section-heading {
-  color: #4E342E;
+  color: #0063B2;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 2em;
   margin-bottom: 30px;
 }
 
 .coffee-creation {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.coffee-creation-image {
+  flex-basis: 45%; /* Adjust the size of the image container */
+  margin: 10px;
+  text-align: center;
 }
 
 .coffee-creation-image img {
   width: 100%;
   height: auto;
-  max-width: 300px;
-  margin: auto;
-  border-radius: 8px;
+  max-width: 350px; /* Maximum width of the image */
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
 .coffee-creation-details {
+  flex-basis: 45%; /* Adjust the size of the text container */
+  margin: 10px;
   padding: 15px;
-  background-color: #FFF8E1;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .coffee-creation-title {
-  color: #6D4C41;
-  font-size: 1.4em;
+  color: #DAA520;
+  font-size: 1.5em;
   margin-bottom: 10px;
 }
 
 .coffee-creation-description {
-  color: #333;
+  color: #555;
   font-size: 1em;
 }
 
 @media (max-width: 768px) {
   .coffee-creation {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coffee-creation-image, .coffee-creation-details {
+    flex-basis: 90%;
   }
 }
