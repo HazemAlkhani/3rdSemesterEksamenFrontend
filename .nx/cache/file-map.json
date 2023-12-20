@@ -57,7 +57,7 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "5314965710504960959"
+        "hash": "9094729167381851947"
       },
       {
         "file": ".nx/cache/lockfile.hash",
@@ -113,7 +113,7 @@
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "5084824591527342202"
+        "hash": "11564122481513906264"
       },
       {
         "file": "src/app/app.component.spec.ts",
@@ -121,7 +121,7 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "15861631653611601555"
+        "hash": "17360358715530912836"
       },
       {
         "file": "src/app/app.config.server.ts",
@@ -133,7 +133,7 @@
       },
       {
         "file": "src/app/app.module.ts",
-        "hash": "4676185989174468958"
+        "hash": "10408322409508778994"
       },
       {
         "file": "src/app/app.routes.ts",
@@ -141,11 +141,11 @@
       },
       {
         "file": "src/app/components/ingredient/ingredient.component.css",
-        "hash": "3737587333776084504"
+        "hash": "6609878918436319338"
       },
       {
         "file": "src/app/components/ingredient/ingredient.component.html",
-        "hash": "5835094947095536251"
+        "hash": "6537350004978638711"
       },
       {
         "file": "src/app/components/ingredient/ingredient.component.spec.ts",
@@ -153,7 +153,7 @@
       },
       {
         "file": "src/app/components/ingredient/ingredient.component.ts",
-        "hash": "7249617385614232585"
+        "hash": "13156248524940936533"
       },
       {
         "file": "src/app/components/menu-item/menu-item.component.css",
@@ -161,7 +161,7 @@
       },
       {
         "file": "src/app/components/menu-item/menu-item.component.html",
-        "hash": "2783404245725124720"
+        "hash": "8883356936626475243"
       },
       {
         "file": "src/app/components/menu-item/menu-item.component.spec.ts",
@@ -169,7 +169,7 @@
       },
       {
         "file": "src/app/components/menu-item/menu-item.component.ts",
-        "hash": "17377276862084406199"
+        "hash": "1601767633125716072"
       },
       {
         "file": "src/app/components/recipe/recipe.component.css",
@@ -177,7 +177,7 @@
       },
       {
         "file": "src/app/components/recipe/recipe.component.html",
-        "hash": "9937574929236098310"
+        "hash": "11573058874988319151"
       },
       {
         "file": "src/app/components/recipe/recipe.component.spec.ts",
@@ -288,12 +288,16 @@
         "hash": "13947367714602081434"
       },
       {
+        "file": "src/assets/ingredient/Ingrident.jpeg",
+        "hash": "758569883449605507"
+      },
+      {
         "file": "src/favicon.ico",
         "hash": "3988961587069885523"
       },
       {
         "file": "src/index.html",
-        "hash": "11876316480011030026"
+        "hash": "13909455649147620268"
       },
       {
         "file": "src/main.server.ts",
