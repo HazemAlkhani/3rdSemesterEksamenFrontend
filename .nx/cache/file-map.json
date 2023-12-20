@@ -57,7 +57,7 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "9094729167381851947"
+        "hash": "6963962978496451976"
       },
       {
         "file": ".nx/cache/lockfile.hash",
@@ -109,11 +109,11 @@
       },
       {
         "file": "src/app/app.component.css",
-        "hash": "17310258811052498663"
+        "hash": "5949181016958336516"
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "11564122481513906264"
+        "hash": "2529823151501811897"
       },
       {
         "file": "src/app/app.component.spec.ts",
@@ -140,12 +140,72 @@
         "hash": "18441130415776196493"
       },
       {
+        "file": "src/app/coffee-images/Americano.jpg",
+        "hash": "7351461068308794189"
+      },
+      {
+        "file": "src/app/coffee-images/Cappuccino.jpg",
+        "hash": "3403620810048566940"
+      },
+      {
+        "file": "src/app/coffee-images/Cortado.jpg",
+        "hash": "12494257985352123537"
+      },
+      {
+        "file": "src/app/coffee-images/Esspresso.jpeg",
+        "hash": "1419454643719158704"
+      },
+      {
+        "file": "src/app/coffee-images/Filterkaffe.jpg",
+        "hash": "2549342424548886775"
+      },
+      {
+        "file": "src/app/coffee-images/FlatWhite.jpg",
+        "hash": "3004340297065271273"
+      },
+      {
+        "file": "src/app/coffee-images/Flatwhite.png",
+        "hash": "5740864719824247632"
+      },
+      {
+        "file": "src/app/coffee-images/Lait.jpg",
+        "hash": "12023908529538381898"
+      },
+      {
+        "file": "src/app/coffee-images/Latte.jpeg",
+        "hash": "17557586912194664817"
+      },
+      {
+        "file": "src/app/coffee-images/Latte.png",
+        "hash": "16786877105061119542"
+      },
+      {
+        "file": "src/app/coffee-images/Lungo.jpg",
+        "hash": "3575858969145269209"
+      },
+      {
+        "file": "src/app/coffee-images/Macchiato.jpg",
+        "hash": "7127288942361441326"
+      },
+      {
+        "file": "src/app/coffee-images/Mokka.jpg",
+        "hash": "16694110959146502972"
+      },
+      {
+        "file": "src/app/coffee-images/Ristretto.jpg",
+        "hash": "13947367714602081434"
+      },
+      {
+        "file": "src/app/components/ingredient/Billeder/Ingrident.jpeg",
+        "hash": "758569883449605507"
+      },
+      {
         "file": "src/app/components/ingredient/ingredient.component.css",
-        "hash": "6609878918436319338"
+        "hash": "3646785963473839068"
       },
       {
         "file": "src/app/components/ingredient/ingredient.component.html",
-        "hash": "6537350004978638711"
+        "hash": "14137859177377325575"
       },
       {
         "file": "src/app/components/ingredient/ingredient.component.spec.ts",
@@ -156,12 +216,16 @@
         "hash": "13156248524940936533"
       },
       {
+        "file": "src/app/components/menu-item/Billeder/menu2.png",
+        "hash": "5307270033018199062"
+      },
+      {
         "file": "src/app/components/menu-item/menu-item.component.css",
-        "hash": "3244421341483603138"
+        "hash": "13942624126655596775"
       },
       {
         "file": "src/app/components/menu-item/menu-item.component.html",
-        "hash": "8883356936626475243"
+        "hash": "12491047095590334519"
       },
       {
         "file": "src/app/components/menu-item/menu-item.component.spec.ts",
@@ -172,12 +236,16 @@
         "hash": "1601767633125716072"
       },
       {
+        "file": "src/app/components/recipe/Billeder/Coffeerecipe.png",
+        "hash": "9702464102582359897"
+      },
+      {
         "file": "src/app/components/recipe/recipe.component.css",
-        "hash": "4820928020333958791"
+        "hash": "4206012711292686919"
       },
       {
         "file": "src/app/components/recipe/recipe.component.html",
-        "hash": "11573058874988319151"
+        "hash": "3139980660788158715"
       },
       {
         "file": "src/app/components/recipe/recipe.component.spec.ts",
@@ -193,7 +261,7 @@
       },
       {
         "file": "src/app/models/menu-item.model.ts",
-        "hash": "15895481193700741497"
+        "hash": "3638478081662329854"
       },
       {
         "file": "src/app/models/recipe.model.ts",
@@ -226,74 +294,6 @@
       {
         "file": "src/assets/.gitkeep",
         "hash": "3244421341483603138"
-      },
-      {
-        "file": "src/assets/Recipe/Coffeerecipe.png",
-        "hash": "9702464102582359897"
-      },
-      {
-        "file": "src/assets/coffee-images/Americano.jpg",
-        "hash": "7351461068308794189"
-      },
-      {
-        "file": "src/assets/coffee-images/Cappuccino.jpg",
-        "hash": "3403620810048566940"
-      },
-      {
-        "file": "src/assets/coffee-images/Cortado.jpg",
-        "hash": "12494257985352123537"
-      },
-      {
-        "file": "src/assets/coffee-images/Esspresso.jpeg",
-        "hash": "1419454643719158704"
-      },
-      {
-        "file": "src/assets/coffee-images/Filterkaffe.jpg",
-        "hash": "2549342424548886775"
-      },
-      {
-        "file": "src/assets/coffee-images/FlatWhite.jpg",
-        "hash": "3004340297065271273"
-      },
-      {
-        "file": "src/assets/coffee-images/Flatwhite.png",
-        "hash": "5740864719824247632"
-      },
-      {
-        "file": "src/assets/coffee-images/Lait.jpg",
-        "hash": "12023908529538381898"
-      },
-      {
-        "file": "src/assets/coffee-images/Latte.jpeg",
-        "hash": "17557586912194664817"
-      },
-      {
-        "file": "src/assets/coffee-images/Latte.png",
-        "hash": "16786877105061119542"
-      },
-      {
-        "file": "src/assets/coffee-images/Lungo.jpg",
-        "hash": "3575858969145269209"
-      },
-      {
-        "file": "src/assets/coffee-images/Macchiato.jpg",
-        "hash": "7127288942361441326"
-      },
-      {
-        "file": "src/assets/coffee-images/Mokka.jpg",
-        "hash": "16694110959146502972"
-      },
-      {
-        "file": "src/assets/coffee-images/Ristretto.jpg",
-        "hash": "13947367714602081434"
-      },
-      {
-        "file": "src/assets/ingredient/Ingrident.jpeg",
-        "hash": "758569883449605507"
-      },
-      {
-        "file": "src/favicon.ico",
-        "hash": "3988961587069885523"
       },
       {
         "file": "src/index.html",
