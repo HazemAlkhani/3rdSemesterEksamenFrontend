@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<div *ngIf="errorMessage">{{ errorMessage }}</div>
-<div>
+<html>
+<head>
+  <title>Menu Kaffe</title>
+  <link rel="stylesheet" href="menu-item.component.css">
+</head>
+<body class="container">
+<div *ngIf="errorMessage">
+  <p class="error-message">{{ errorMessage }}</p>
+</div>
+<div class="button-group">
   <button (click)="createNewItem()">Create New Item</button>
   <button (click)="updateExistingItem(itemId)">Update Item</button>
   <button (click)="deleteItem(itemId)">Delete Item</button>
 </div>
-
 <div *ngIf="menuItems.length > 0">
-  <table>
+  <h2>Menu Items</h2>
+  <table class="menu-table">
     <thead>
     <tr>
       <th>Name</th>
@@ -22,3 +30,6 @@
     </tbody>
   </table>
 </div>
+</body>
+</html>
+
